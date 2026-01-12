@@ -38,3 +38,6 @@ En reprenant mon ancien métier de développeur, j’ai conçu une application w
 Les doublons, codes inexistants ou erreurs sont immédiatement signalés, ce qui rend l’accueil plus fluide et plus fiable.
 
 Bien entendu, un accueil spécifique reste prévu pour les situations non anticipées. 
+
+![Screenshot scan QR code](/screenshots/scanqr.jpg)
+![Screenshot admin page](/screenshots/admin.jpg)
