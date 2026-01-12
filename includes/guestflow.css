@@ -1,0 +1,147 @@
+/* =========================
+   GuestFlow – styles communs
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: #004080;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* ===== Main content ===== */
+main {
+    flex-grow: 1;
+    width: 100%;
+    padding: 30px 15px;
+}
+
+/* ===== QR Reader ===== */
+#reader {
+    margin: 20px auto;
+    border: 2px solid #004080;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+/* ===== Messages ===== */
+#message {
+    margin-top: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 90%;
+    word-wrap: break-word;
+}
+
+.success {
+    color: green;
+    background: #e6ffe6;
+}
+
+.already {
+    color: #b36b00;
+    background: #fff3e0;
+}
+
+.error {
+    color: red;
+    background: #ffe6e6;
+}
+
+/* ===== Charts ===== */
+canvas {
+    max-width: 400px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+/* ===== Tables (admin) ===== */
+table {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #004080;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* ===== Footer ===== */
+footer {
+    margin-top: auto;
+    background-color: #004080;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+
+footer .admin-link {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+footer .admin-link:hover {
+    opacity: 0.8;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+    header {
+        font-size: 1.2em;
+        padding: 10px 0;
+    }
+
+    #reader {
+        width: 95vw !important;
+    }
+
+    #message {
+        font-size: 1.2em;
+    }
+
+    footer {
+        font-size: 0.8em;
+        padding: 8px 0;
+    }
+}
